@@ -1,3 +1,5 @@
 def func(){
-    powershell "echo hello world"
+    script {
+        powershell "echo hello world"
+    }
 }
