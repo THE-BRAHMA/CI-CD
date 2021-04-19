@@ -5,7 +5,7 @@ pipeline{
         stage('first'){
             steps{
                 script{
-                    helloWorld.call()
+                    helloWorld.func()
                 }
             }
         }
