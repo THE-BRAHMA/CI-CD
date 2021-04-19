@@ -4,7 +4,9 @@ pipeline{
     stages{
         stage('first'){
             steps{
-                helloWorld.call()
+                script{
+                    helloWorld.call()
+                }
             }
         }
     }
