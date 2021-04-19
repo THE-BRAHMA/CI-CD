@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage('first'){
             steps{
-                helloWorld()
+                helloWorld.call()
             }
         }
     }
